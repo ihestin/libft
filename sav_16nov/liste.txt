@@ -1,0 +1,35 @@
+
+memset		AF
+bzero		AF
+memcpy		AF
+memccpy		AF
+memmove		AF
+memchr		AF
+memcmp		AF
+strchr		AF
+strrchr		AF
+strnstr		AF
+strncmp		AF
+isalpha		AF
+isdigit		AF
+isalnum		AF
+isascii		AF
+isprint		AF
+toupper 	AF
+tolower		AF
+
+type	ArRet		Args
+0		int			const char*
+1		int			const char*, const char*
+2		char*		const char*
+3		size_t		const char*
+4		char*		char*, const char*
+5		char*		char*, const char*, size_t
+6		char*		const char*, const char*
+7		char*		const char*, const char*, size_t
+8		size_t		char*, const char*, size_t
+
+Terniner
+atoi0 strcmp1 strdup2 strlen3 strcpy4 strncpy5 strcat4 strncat5 strstr6 strlcat8 strlcpy8
+
+

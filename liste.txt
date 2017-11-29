@@ -1,0 +1,59 @@
+Tester
+
+Terminer + test pqrtiel +norminette
+ft_putchar.c ft_putchardec.c ft_putmemstr.c ft_putstr.c ft_putendt.c ft_putmemendl.c ft_putnbr.c 
+ft_putchar_fd.c  ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_putchardec_fd.c ft_putmemstr_fd.c ft_putmemendl_fd.c
+ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c 
+
+A tester
+ft_strclr.c ft_striter.c ft_striteri.c 
+ft_strmap.c ft_strmapi.c  
+ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strtrim.c 
+ft_strsplit.c ft_itoa.c
+ft_lstnew.c ft_lstdelone.c 
+ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c
+
+EC
+
+A faire
+
+Partie3
+declaration des structures dans bonus
+
+
+
+
+
+
+int     (*f0)(const char *);
+int     (*f1)(const char *, const char *);
+char    *(*f2)(const char *);
+size_t  (*f3)(const char *);
+char    *(*f4)(char *,const char *);
+char    *(*f5)(char *,const char *, size_t);
+char    *(*f6)(const char *,const char *);
+char    *(*f7)(char *,const char *);
+char    *(*f8)(char *,const char *, size_t);
+size_t   (*f9)(char *,const char *,size_t);
+int     (*f10)(const char *, const char *,size_t);
+int     (*f11)(int c);
+char    *(*f12)(const char *,const char *, size_t);
+char    *(*f13)(const char *, int);
+void    *(*f14)(void *, int, size_t);
+void    (*f15)(void *, size_t);
+void    *(*f16)(void *, const void *, size_t);
+void    *(*f17)(void *, const void *, int, size_t);
+void    *(*f18)(void *, const void *, size_t);
+void    *(*f19)(const void *, int, size_t);
+int     (*f20)(const void *, const void *, size_t);
+
+Terniner
+
+Strlen3 Strdup2 Strcpy4 Strncpy5 STrlcpy9 Strcat7 Strncat8 Strlcat9 Strstr6 Strnstr12 Strchr13 Strrchr13
+Strcmp1 Srncmp10 Atoi0 Isalpha11 Isdigit11 Isalnum11 Isascii11 Isprint11 Toupper11 Tolower11
+Memset14 Bzero15 Memcpy16
+
+memccpy17
+memmove18
+memchr19
+memcmp20
